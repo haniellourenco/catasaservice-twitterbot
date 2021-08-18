@@ -39,5 +39,4 @@ def tweet_image(url):
 while True:
     print('publicando imagem...')
     tweet_image(url)
-    #time.sleep(30)
-    time.sleep(randint(600, 7200))
+    time.sleep(randint(600, 3600))
