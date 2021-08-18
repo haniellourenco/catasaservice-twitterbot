@@ -1,5 +1,7 @@
 import os
 import time
+import pytz
+from datetime import datetime
 from random import randint
 import requests
 import tweepy as tp
@@ -37,6 +39,8 @@ def tweet_image(url):
 
 
 while True:
-    print('publicando imagem...')
+    tz_SP = pytz.timezone('America/Sao_Paulo')
+    datetime_SP = datetime.now(tz_SP)
     tweet_image(url)
+    print('publicando imagem... horário: ' + datetime_SP.strftime("%H:%M:%S"))
     time.sleep(randint(600, 3600))
