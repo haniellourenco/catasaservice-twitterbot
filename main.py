@@ -5,12 +5,9 @@ from datetime import datetime
 from random import randint
 import requests
 import tweepy as tp
+from keys import *
 
-# twitter api:
-consumer_key = 'kR6FxVmAx6k4i5uhPwIO0xuml'
-consumer_secret = '0mSOxN90tPr759exMwExAccEFtEOlLVRwYY49VWJalFWFmHaBo'
-access_token = '1367529588281204738-HDznOw5kyMTHC3vBcWJNfCclpjt4PO'
-access_secret = 'hq5l7fonpmzOWnTTayBdqODcAn1zhZpeKjkceQrMWgoDD'
+
 
 # logando na conta api twitter:
 auth = tp.OAuthHandler(consumer_key, consumer_secret)
