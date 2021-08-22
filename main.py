@@ -6,7 +6,7 @@ from random import randint
 import requests
 import json
 import tweepy as tp
-from keys import *
+#from keys import *
 
 consumer_key = 'sFg0Fe0iVKcYEiPiCO4Ix6p6j'
 consumer_secret = 'vby53rwKvJzDJ0srCSSE7Zggev4cZsGW5LxQBxEZZeZ2a41umY'
