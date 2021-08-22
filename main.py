@@ -8,6 +8,10 @@ import json
 import tweepy as tp
 from keys import *
 
+consumer_key = 'sFg0Fe0iVKcYEiPiCO4Ix6p6j'
+consumer_secret = 'vby53rwKvJzDJ0srCSSE7Zggev4cZsGW5LxQBxEZZeZ2a41umY'
+access_token = '1367529588281204738-ZDdM4yA4xfgzVqhl693VzCiHwOOACS'
+access_secret = 'ZR2EyZO8GsB0rSNnzYCDaoTkEYSzPGKThOp1E5Yf4ky6j'
 
 # logando na conta api twitter:
 auth = tp.OAuthHandler(consumer_key, consumer_secret)
